@@ -1,14 +1,14 @@
 //
-//  UIView+HMCategory.m
+//  UIView+DSWCategory.m
+//  MeiTuanHD
 //
-//
-//  Created by AndyDev on 15/9/5.
-//  Copyright © 2015年 AndyDev. All rights reserved.
+//  Created by 段盛武 on 2016/11/10.
+//  Copyright © 2016年 cuctv-duan. All rights reserved.
 //
 
-#import "UIView+HMCategory.h"
+#import "UIView+DSWCategory.h"
 
-@implementation UIView (HMCategory)
+@implementation UIView (DSWCategory)
 
 - (void)setX:(CGFloat)x
 {

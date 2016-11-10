@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A13CC501DD4B07100FDF2AF /* UIView+HMCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A13CC4F1DD4B07100FDF2AF /* UIView+HMCategory.m */; };
+		1A13CC531DD4B13400FDF2AF /* UIView+DSWCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A13CC521DD4B13400FDF2AF /* UIView+DSWCategory.m */; };
 		AFE88C391DC03A4D00180B8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE88C381DC03A4D00180B8D /* main.m */; };
 		AFE88C3C1DC03A4D00180B8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE88C3B1DC03A4D00180B8D /* AppDelegate.m */; };
 		AFE88C441DC03A4D00180B8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFE88C431DC03A4D00180B8D /* Assets.xcassets */; };
@@ -16,8 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1A13CC4E1DD4B07100FDF2AF /* UIView+HMCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HMCategory.h"; sourceTree = "<group>"; };
-		1A13CC4F1DD4B07100FDF2AF /* UIView+HMCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HMCategory.m"; sourceTree = "<group>"; };
+		1A13CC511DD4B13400FDF2AF /* UIView+DSWCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DSWCategory.h"; sourceTree = "<group>"; };
+		1A13CC521DD4B13400FDF2AF /* UIView+DSWCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DSWCategory.m"; sourceTree = "<group>"; };
 		AFE88C341DC03A4D00180B8D /* MeiTuanHD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeiTuanHD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFE88C381DC03A4D00180B8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AFE88C3A1DC03A4D00180B8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -180,8 +180,8 @@
 		AFE88C5A1DC03D4B00180B8D /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				1A13CC4E1DD4B07100FDF2AF /* UIView+HMCategory.h */,
-				1A13CC4F1DD4B07100FDF2AF /* UIView+HMCategory.m */,
+				1A13CC511DD4B13400FDF2AF /* UIView+DSWCategory.h */,
+				1A13CC521DD4B13400FDF2AF /* UIView+DSWCategory.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -341,8 +341,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFE88C3C1DC03A4D00180B8D /* AppDelegate.m in Sources */,
+				1A13CC531DD4B13400FDF2AF /* UIView+DSWCategory.m in Sources */,
 				AFE88C681DC03DD200180B8D /* DSWHomeViewController.m in Sources */,
-				1A13CC501DD4B07100FDF2AF /* UIView+HMCategory.m in Sources */,
 				AFE88C6D1DC056C300180B8D /* DSWNavigationController.m in Sources */,
 				AFE88C391DC03A4D00180B8D /* main.m in Sources */,
 			);

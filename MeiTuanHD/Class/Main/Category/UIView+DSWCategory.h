@@ -1,14 +1,15 @@
 //
-//  UIView+HMCategory.h
-//  
+//  UIView+DSWCategory.h
+//  MeiTuanHD
 //
-//  Created by AndyDev on 15/9/5.
-//  Copyright © 2015年 AndyDev. All rights reserved.
+//  Created by 段盛武 on 2016/11/10.
+//  Copyright © 2016年 cuctv-duan. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface UIView (HMCategory)
+@interface UIView (DSWCategory)
+
 @property (nonatomic, assign) CGFloat x;
 @property (nonatomic, assign) CGFloat y;
 @property (nonatomic, assign) CGFloat width;
@@ -17,4 +18,5 @@
 @property (nonatomic, assign) CGFloat centerY;
 @property (nonatomic, assign) CGSize size;
 @property (nonatomic, assign) CGPoint origin;
+
 @end
